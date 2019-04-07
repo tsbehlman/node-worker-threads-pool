@@ -6,6 +6,10 @@
   "directories": {
     "example": "example"
   },
+  "files": [
+    "index.js",
+    "src"
+  ],
   "scripts": {
     "static-function": "node --experimental-worker ./example/static-with-function",
     "static-file": "node --experimental-worker ./example/static-with-worker-file",
